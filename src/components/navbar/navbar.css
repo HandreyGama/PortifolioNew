@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.navbar{
+    background-color: #0405069d;
+    backdrop-filter: blur(2px);
+}
