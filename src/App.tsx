@@ -1,9 +1,18 @@
+import About from './pages/about/about'
 import Home, {} from './pages/home/home'
+import Projects from './pages/projects/projects'
+import Stack from './pages/stack/stack'
 
 function App() {
 
   return (
-    <Home></Home>
+    <div>
+      <Home></Home>
+      <About></About>
+      <Stack></Stack>
+      <Projects></Projects>
+    </div>
+
   )
 }
 

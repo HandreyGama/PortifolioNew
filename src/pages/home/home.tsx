@@ -1,13 +1,15 @@
 import './home.css'
 import Navbar from '../../components/navbar/navbar'
 import HomeHero from '../../components/home_hero/home_hero'
+import HomeGithubInfo from '@//components/home_github_info/home_github_info'
 
 
 function Home(){
     return (
-        <section className="flex flex-col home w-screen h-screen ">
+        <section id="home" className="flex flex-col home w-screen h-[120vh] ">
             <Navbar></Navbar>
             <HomeHero></HomeHero>
+            <HomeGithubInfo></HomeGithubInfo>
         </section>
     )
 }

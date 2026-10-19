@@ -3,7 +3,7 @@ import './navbar.css'
 
 function Navbar(){
     return (
-        <nav className='flex navbar items-center justify-between sticky w-screen h-20 border-1 border-b-gray-800'>
+        <nav className='flex fixed navbar items-center justify-between  w-screen h-20 border-1 border-b-gray-800'>
             <div className='flex h-full justify-center items-center'>
                 <h1 className='text-white text-2xl font-bold mx-10'>Meu Portifolio</h1>
             </div>
