@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 interface ThemeTogglerProps {
   /** Current theme; drives the icon and the accessible label */
