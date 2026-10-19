@@ -1,7 +1,12 @@
 import './tag.css'
+import type { ReactNode } from 'react'
 
 
-function Tag({children,className=""}){
+interface TagProps{
+    children: ReactNode;
+}
+
+function Tag({children}:TagProps,className=""){
     return(
         <div className={`tag flex justify-center items-center p-3 w-[10vw] h-[4vh] border-1 border-gray-500  rounded-2xl ${className || ""}`}>
             {children}
